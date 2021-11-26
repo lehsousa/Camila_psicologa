@@ -233,30 +233,18 @@
     </footer>
 
 </main>
-
+<div id="modal-promocao" class="modal-container">
+    <div class="modal">
+        <button class="fechar">x</button>
+        <h3>Adquira seu Ebook sobre Inteligência Emocional</h3>
+        <a class="" href="/ebook.html" target="_blank">Eu quero!
+    </a>
+    </div>
+</div>
 
 <script src="/vanilla-tilt.min.js"></script>
 
-<script>
-    VanillaTilt.init(document.querySelectorAll(".sci li a"), {
-        max: 30,
-        speed: 400,
-        glare: true,
-        "max-glare": 1,
-    });
 
-    let list = document.querySelectorAll('.sci li');
-    let bg = document.querySelector('.cards');
-    list.forEach(elements => {
-        elements.addEventListener('mouseenter', function(event) {
-            let color = event.target.getAttribute('data-color');
-            bg.style.backgroundColor = color;
-        })
-        elements.addEventListener('mouseleave', function(event) {
-            bg.style.backgroundColor = '#fff';
-        })
-    })
-</script>
 
 <script src="https://kit.fontawesome.com/d2d3b3cd7e.js " crossorigin="anonymous "></script>
 
