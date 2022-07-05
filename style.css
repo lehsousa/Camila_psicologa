@@ -495,16 +495,14 @@ section {
 }
 
 .contact .content-contact .e-mail,
-.contact .content-contact .telefone,
-.contact .content-contact .endereco {
+.contact .content-contact .telefone {
     display: flex;
     align-items: center;
     padding: 1rem;
 }
 
 .contact .content-contact .e-mail i,
-.contact .content-contact .telefone i,
-.contact .content-contact .endereco i {
+.contact .content-contact .telefone i {
     font-size: 3rem;
     margin-right: 1rem;
     color: var(--text-color);
@@ -516,8 +514,12 @@ section {
 }
 
 .contact .content-contact .e-mail p,
-.contact .content-contact .telefone p,
-.contact .content-contact .endereco p {
+.contact .content-contact .telefone p {
+    margin: 0px;
+}
+
+.contact .content-contact .e-mail p a,
+.contact .content-contact .telefone p a {
     font-size: 1.2rem;
     color: var(--text-color);
 }
