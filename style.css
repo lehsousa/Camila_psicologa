@@ -49,6 +49,7 @@ a {
 
 a {
     text-decoration: none;
+    color: var(--text-color);
 }
 
 section {
@@ -535,6 +536,33 @@ section {
 
 .contact .content-contact .icons a i:hover {
     color: var(--color-hover);
+}
+
+.convenios {
+    display: flex;
+    flex-direction: column;
+}
+
+.convenios img {
+    width: 100%;
+    height: 100px;
+}
+
+.convenios h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+.logo_convenios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo_convenios img {
+    width: 200px;
+    height: 200px;
 }
 
 .form {
@@ -1081,6 +1109,9 @@ footer a {
 }
 
 @media (max-width: 665px) {
+    .icons {
+        justify-content: center;
+    }
     .about-ebook-cards {
         grid-template-columns: 1fr;
     }
@@ -1097,6 +1128,11 @@ footer a {
 }
 
 @media (max-width: 600px) {
+    #psicologiaviva {
+        width: 80%;
+        margin: auto;
+        height: 80px;
+    }
     .banner-ebook h1 {
         font-size: 1.5rem;
     }
@@ -1118,8 +1154,8 @@ footer a {
 }
 
 @media (max-width: 500px) {
-    .maps-contact iframe {
-        width: 350px;
+    .logo_convenios {
+        grid-template-columns: 1fr 1fr;
     }
     .ebook {
         margin-bottom: 1rem;
@@ -1235,8 +1271,16 @@ footer a {
     .about-content .about-text p {
         font-size: 1rem;
     }
-    .maps-contact iframe {
-        width: 300px;
+    .convenios h1 {
+        font-size: 1.3rem;
+    }
+    #psicologiaviva {
+        height: 40px;
+        margin-top: 1rem;
+    }
+    .logo_convenios {
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
     .resenha h2 {
         font-size: 0.8rem;
