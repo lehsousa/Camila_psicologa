@@ -1121,6 +1121,9 @@ footer a {
     .maps-contact iframe {
         width: 350px;
     }
+    .ebook {
+        margin-bottom: 1rem;
+    }
     .ebook-content {
         flex-direction: column;
     }
@@ -1128,7 +1131,7 @@ footer a {
         text-align: center;
     }
     .ebook a.btn-floating.btn-large.pulse {
-        margin-left: 29%;
+        margin: auto;
     }
 }
 
